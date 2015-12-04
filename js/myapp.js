@@ -1,5 +1,6 @@
-'use strict'
+"use strict";
 
+/* jshint undef:true */
 var myApp = angular.module('myApp', ['ngRoute'])
 	.config(function($routeProvider)
 	{
@@ -10,5 +11,5 @@ var myApp = angular.module('myApp', ['ngRoute'])
 		$routeProvider.when('/css-shade-progressbar',
 		{
 			templateUrl: 'css-shade-progressbar/css-shade-progressbar.html'
-		})
+		});
 	});
